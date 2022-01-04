@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/idCasa"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@color/gray"
+                    android:text="ID CASA"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/edtIdCasa"
+                    android:layout_width="240dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/gray" />
+
+
+                <TextView
+                    android:id="@+id/inmueble"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/gray"
+                    android:text="INMUEBLE"
+                    android:textAlignment="center" />
+
+                <Spinner
+                    android:id="@+id/spInmueble2"
+                    android:layout_width="240dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:id="@+id/tipo"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="60dp"
+                    android:background="@color/gray"
+                    android:text="TIPO"
+                    android:textAlignment="center" />
+
+                <Spinner
+                    android:id="@+id/spTipo2"
+                    android:layout_width="240dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="60dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:id="@+id/precio"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="90dp"
+                    android:background="@color/gray"
+                    android:text="PRECIO"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/edtPrecio"
+                    android:layout_width="240dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="90dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:id="@+id/lugar"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@color/gray"
+                    android:text="LUGAR"
+                    android:textAlignment="center"
+                    android:layout_marginTop="120dp" />
+
+                <Spinner
+                    android:id="@+id/spLugar2"
+                    android:layout_width="240dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="120dp"
+                    android:background="@color/gray" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPCION"
+                android:textAlignment="center"
+                android:background="@color/gray"
+                android:layout_marginTop="30dp"/>
+            <EditText
+                android:id="@+id/edtDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/gray" />
+
+            <Button
+                android:id="@+id/btnSubirFoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/gray"
+                android:layout_gravity="center"
+                android:text="AGREGAR FOTO" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <GridView
+                    android:id="@+id/gridGaleria"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:columnWidth="100dp"
+                    android:numColumns="3" />
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10dp" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp" />
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp" />
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="120dp" />
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="120dp" />
+
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="120dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp">
+                <Button
+                    android:id="@+id/btnPrincipal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/gray"
+                    android:text="PAGINA PRINCIPAL" />
+
+                <Button
+                    android:id="@+id/btnPublicar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/gray"
+                    android:text="PUBLICAR" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

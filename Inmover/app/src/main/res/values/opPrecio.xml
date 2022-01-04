@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="combo_precio">
+        <item>Opciones...</item>
+        <item>$100.000 - $500,000</item>
+        <item>$500.000 - $1,000,000</item>
+        <item>$1,000,000 - $1,500,000</item>
+        <item>$1,500,000 - $2,000,000</item>
+    </string-array>
+</resources>
