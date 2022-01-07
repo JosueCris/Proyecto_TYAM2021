@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "663505713584",
+    "firebase_url": "https://proyectotyam2021-default-rtdb.firebaseio.com",
+    "project_id": "proyectotyam2021",
+    "storage_bucket": "proyectotyam2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663505713584:android:d7854a0461fd88d89fbe75",
+        "android_client_info": {
+          "package_name": "com.example.inmover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663505713584-fehh6ivspj59ogkv19f4sib1c88hrkij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inmover",
+            "certificate_hash": "9c6fc32e84dad6ab21cbe5b7749d8059e73ff775"
+          }
+        },
+        {
+          "client_id": "663505713584-2rrdagd8i0e1ve64bbgdf8ufpj7nt2lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1n52e-mKHjkOyJJMjQU2AKcqW4y42-7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663505713584-2rrdagd8i0e1ve64bbgdf8ufpj7nt2lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
